@@ -48,20 +48,16 @@ header {
   font-weight: 500;
 }
 
-.actions {
-  height: auto;
-}
-
 .actions a {
   margin-left: 15px;
   background: none;
   border: none;
   color: white;
   cursor: pointer;
-  font-size: 16px;
 }
 
 .sign-in {
+  top: auto;
   margin-left: 15px;
   background: white;
   color: black;
@@ -165,12 +161,12 @@ h1 {
 
 .gradient-circle-kiri {
   position: absolute;
-  bottom: -50px; /* Posisi sebagian keluar layar bawah */
-  left: -50px; /* Posisi sebagian keluar layar kiri */
-  width: 200px;
-  height: 200px;
+  bottom: -80px; /* Posisi sebagian keluar layar bawah */
+  left: -140px; /* Posisi sebagian keluar layar kiri */
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   background: radial-gradient(circle at center, #00c3ff, #7b00ff, #ff4edd);
   box-shadow: 0 0 40px rgba(255, 0, 255, 0.3);
-  z-index: 0;
+  z-index: -1;
 }
