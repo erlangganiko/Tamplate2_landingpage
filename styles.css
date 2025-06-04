@@ -146,21 +146,21 @@ h1 {
 
 .image img {
   position: absolute;
-  top: 250px;
+  top: 220px;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 200%;
-  height: 50vh;
+  max-width: 500%;
+  height: 60vh;
   z-index: 2; /* agar berada di depan lingkaran */
 }
 .image2 img {
   position: absolute;
-  top: 220px;
-  left: 110%;
+  top: 180px;
+  left: 130%;
   transform: translate(-50%, -50%);
-  max-width: 250%;
-  height: 60vh;
-  z-index: 2; /* agar berada di depan lingkaran */
+  max-width: 500%;
+  height: 80vh;
+  z-index: 2; /* agar berada di depan lingkaran dan gambar*/
 }
 
 .gradient-circle-kiri {
