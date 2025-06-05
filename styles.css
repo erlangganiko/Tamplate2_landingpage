@@ -175,6 +175,12 @@ h1 {
   html {
     font-size: 75%;
   }
+  .tabs {
+    font-size: 15px;
+  }
+  .content h4 {
+    font-size: 15px;
+  }
 }
 /* Tablet */
 @media screen and (max-width: 768px) {
