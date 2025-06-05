@@ -170,3 +170,26 @@ h1 {
   box-shadow: 0 0 40px rgba(255, 0, 255, 0.3);
   z-index: -1;
 }
+/* Laptop */
+@media screen and (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+/* Tablet */
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+  main {
+    flex-direction: column;
+  }
+  .container {
+    top: 150px;
+    width: 140px;
+  }
+  .gradient-circle-kiri {
+    width: 350px;
+    top: 100px;
+  }
+}
