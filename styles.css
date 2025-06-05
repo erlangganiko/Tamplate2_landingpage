@@ -184,6 +184,12 @@ h1 {
   main {
     flex-direction: column;
   }
+  .tabs {
+    font-size: 15px;
+  }
+  .content h4 {
+    font-size: 15px;
+  }
   .container {
     top: 150px;
     width: 140px;
