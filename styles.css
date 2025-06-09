@@ -471,7 +471,9 @@ main {
     font-size: 1em;
     padding-bottom: 8px;
   }
-
+  .content-display {
+    font-size: 16px;
+  }
   .content-pane h1 {
     font-size: 2em;
   }
