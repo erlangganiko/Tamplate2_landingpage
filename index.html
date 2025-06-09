@@ -1,146 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smartphone Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Feather Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smartphone Landing Page</title>
-  <link rel="stylesheet" href="styles.css" />
-  <!-- Feather Icon -->
-  <script src="https://unpkg.com/feather-icons"></script>
-</head>
+  <body>
+    <header>
+      <div class="site-logo">
+        <img src="img/icon/Apple grey.png" />
 
-<body>
-
-
-  <header>
-    <div class="site-logo">
-      <img src="img/icon/Apple grey.png" />
-      
-      <span>Site Logo</span>
-    </div>
-    <nav class="promo-nav">
-      <a href="#" class="promo-link" id="promoButton">Promosi</a>
-    </nav>
-  </header>
-  <main>
-    <div class="product-info-section">
-      <div class="nav-links">
-        <a href="#" class="nav-item active" data-content="highlights">Highlights</a>
-        <a href="#" class="nav-item" data-content="specifications">Specifications</a>
-        <a href="#" class="nav-item" data-content="compare">Compare</a>
+        <span>Site Logo</span>
       </div>
-
-      <div class="content-display">
-        <div id="highlights" class="content-pane active">
-          <h2>Smartphone Series</h2>
-          <h1>Designed With Beauty And Functionality In Mind</h1>
-          <button class="buy">Buy Now</button>
-          <p class="start-price">Start at Rp 12.749.000,00</p>
-          <p>Ini adalah ringkasan fitur utama dari iPhone terbaru. Desain premium, performa cepat, dan kamera yang luar
-            biasa.</p>
-          <ul class="feature-list">
-            <li>Desain kaca premium</li>
-            <li>Chipset A18 Bionic</li>
-            <li>Sistem kamera Pro canggih</li>
-            <li>Layar Super Retina XDR</li>
-          </ul>
+      <nav class="promo-nav">
+        <a href="#" class="promo-link" id="promoButton">Promo</a>
+      </nav>
+    </header>
+    <main>
+      <div class="product-info-section">
+        <div class="nav-links">
+          <a href="#" class="nav-item active" data-content="highlights"
+            >Highlights</a
+          >
+          <a href="#" class="nav-item" data-content="specifications"
+            >Specifications</a
+          >
+          <a href="#" class="nav-item" data-content="compare">Compare</a>
         </div>
 
-        <div id="specifications" class="content-pane">
-          <h2>Spesifikasi Lengkap</h2>
-          <p>Berikut adalah detail spesifikasi teknis dari perangkat:</p>
-          <ul class="spec-list">
-            <li><strong>Layar:</strong> 6.1 inci Super Retina XDR OLED</li>
-            <li><strong>Prosesor:</strong> Apple A18 Bionic Chip</li>
-            <li><strong>Penyimpanan:</strong> 128GB, 256GB, 512GB, 1TB</li>
-            <li><strong>Kamera Belakang:</strong>
-              <ul>
-                <li>48MP Utama (f/1.6, OIS)</li>
-                <li>12MP Ultra Wide (f/2.4)</li>
-                <li>12MP Telefoto (f/2.8, 3x optical zoom)</li>
-              </ul>
-            </li>
-            <li><strong>Kamera Depan:</strong> 12MP TrueDepth (f/1.9)</li>
-            <li><strong>Baterai:</strong> Tahan hingga 24 jam pemutaran video</li>
-            <li><strong>Sistem Operasi:</strong> iOS terbaru</li>
-            <li><strong>Fitur Lain:</strong> Face ID, MagSafe, IP68 anti air dan debu</li>
-          </ul>
-        </div>
+        <div class="content-display">
+          <div id="highlights" class="content-pane active">
+            <h2>Smartphone Series</h2>
+            <h1>Designed With Beauty And Functionality In Mind</h1>
+            <button class="buy">Buy Now</button>
+            <p class="start-price">Start at Rp 12.749.000,00</p>
+            <p>
+              Ini adalah ringkasan fitur utama dari iPhone terbaru. Desain
+              premium, performa cepat, dan kamera yang luar biasa.
+            </p>
+            <ul class="feature-list">
+              <li>Desain kaca premium</li>
+              <li>Chipset A18 Bionic</li>
+              <li>Sistem kamera Pro canggih</li>
+              <li>Layar Super Retina XDR</li>
+            </ul>
+          </div>
 
-        <div id="compare" class="content-pane">
-          <h2>Bandingkan iPhone</h2>
-          <p>Lihat bagaimana iPhone ini dibandingkan dengan model lain:</p>
-          <div class="table-container">
-            <table>
-              <thead>
-                <tr>
-                  <th>Fitur</th>
-                  <th>iPhone 16 </th>
-                  <th>iPhone 15 Pro </th>
-                  <th>iPhone SE </th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Chip</td>
-                  <td>A18 Bionic</td>
-                  <td>A17 Pro</td>
-                  <td>A15 Bionic</td>
-                </tr>
-                <tr>
-                  <td>Kamera Utama</td>
-                  <td>48MP</td>
-                  <td>48MP</td>
-                  <td>12MP</td>
-                </tr>
-                <tr>
-                  <td>Dynamic Island</td>
-                  <td>Ya</td>
-                  <td>Ya</td>
-                  <td>Tidak</td>
-                </tr>
-                <tr>
-                  <td>Bahan</td>
-                  <td>Kaca & Aluminium</td>
-                  <td>Titanium</td>
-                  <td>Kaca & Aluminium</td>
-                </tr>
-              </tbody>
-            </table>
+          <div id="specifications" class="content-pane">
+            <h2>Spesifikasi Lengkap</h2>
+            <p>Berikut adalah detail spesifikasi teknis dari perangkat:</p>
+            <ul class="spec-list">
+              <li><strong>Layar:</strong> 6.1 inci Super Retina XDR OLED</li>
+              <li><strong>Prosesor:</strong> Apple A18 Bionic Chip</li>
+              <li><strong>Penyimpanan:</strong> 128GB, 256GB, 512GB, 1TB</li>
+              <li>
+                <strong>Kamera Belakang:</strong>
+                <ul>
+                  <li>48MP Utama (f/1.6, OIS)</li>
+                  <li>12MP Ultra Wide (f/2.4)</li>
+                  <li>12MP Telefoto (f/2.8, 3x optical zoom)</li>
+                </ul>
+              </li>
+              <li><strong>Kamera Depan:</strong> 12MP TrueDepth (f/1.9)</li>
+              <li>
+                <strong>Baterai:</strong> Tahan hingga 24 jam pemutaran video
+              </li>
+              <li><strong>Sistem Operasi:</strong> iOS terbaru</li>
+              <li>
+                <strong>Fitur Lain:</strong> Face ID, MagSafe, IP68 anti air dan
+                debu
+              </li>
+            </ul>
+          </div>
+
+          <div id="compare" class="content-pane">
+            <h2>Bandingkan iPhone</h2>
+            <p>Lihat bagaimana iPhone ini dibandingkan dengan model lain:</p>
+            <div class="table-container">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Fitur</th>
+                    <th>iPhone 16</th>
+                    <th>iPhone 15 Pro</th>
+                    <th>iPhone SE</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Chip</td>
+                    <td>A18 Bionic</td>
+                    <td>A17 Pro</td>
+                    <td>A15 Bionic</td>
+                  </tr>
+                  <tr>
+                    <td>Kamera Utama</td>
+                    <td>48MP</td>
+                    <td>48MP</td>
+                    <td>12MP</td>
+                  </tr>
+                  <tr>
+                    <td>Dynamic Island</td>
+                    <td>Ya</td>
+                    <td>Ya</td>
+                    <td>Tidak</td>
+                  </tr>
+                  <tr>
+                    <td>Bahan</td>
+                    <td>Kaca & Aluminium</td>
+                    <td>Titanium</td>
+                    <td>Kaca & Aluminium</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="gradient-circle"></div>
-      <div class="image">
-        <img src="img/iphone16e.png" alt="Smartphone" />
+      <div class="container">
+        <div class="gradient-circle"></div>
+        <div class="image">
+          <img src="img/iphone16e.png" alt="Smartphone" />
+        </div>
+      </div>
+      <!-- Lingkaran di pojok kiri bawah -->
+      <div class="gradient-circle-kiri"></div>
+    </main>
+
+    <div id="promoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>Syarat dan Ketentuan Promosi</h2>
+        <ol>
+          <li>Periode promo bank 4 - 30 Juni 2025.</li>
+          <li>
+            Untuk transaksi di iBox.co.id, diskon dan gratis pengiriman ke
+            seluruh Indonesia dengan ekspedisi JNE, hanya berlaku untuk member
+            yang terdaftar di iBox.co.id. Apabila belum terdaftar, silahkan
+            mendaftar
+            <a href="https://www.ibox.co.id/register" target="_blank">disini</a
+            >.
+          </li>
+          <li>
+            Dapatkan ekstra diskon dari Bank hingga Rp 1.500.000 selama periode
+            promo.
+          </li>
+        </ol>
+        <button class="modal-ok-button">OK, Mengerti</button>
       </div>
     </div>
-    <!-- Lingkaran di pojok kiri bawah -->
-    <div class="gradient-circle-kiri"></div>
-  </main>
 
-  <div id="promoModal" class="modal">
-    <div class="modal-content">
-      <span class="close-button">&times;</span>
-      <h2>Syarat dan Ketentuan Promosi</h2>
-      <ol>
-        <li>Periode promo bank 4 - 30 Juni 2025.</li>
-        <li>Untuk transaksi di iBox.co.id, diskon dan gratis pengiriman ke seluruh Indonesia dengan ekspedisi
-          JNE, hanya berlaku untuk member yang terdaftar di iBox.co.id. Apabila belum terdaftar, silahkan
-          mendaftar <a href="https://www.ibox.co.id/register" target="_blank">disini</a>.</li>
-        <li>Dapatkan ekstra diskon dari Bank hingga Rp 1.500.000 selama periode promo.</li>
-      </ol>
-      <button class="modal-ok-button">OK, Mengerti</button>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-  <!-- Feather Icon -->
-  <script>feather.replace();</script>
-</body>
-
+    <script src="script.js"></script>
+    <!-- Feather Icon -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
 </html>
