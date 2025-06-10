@@ -83,6 +83,8 @@ main {
 
 .nav-item:hover {
   color: #ccc; /* Sedikit lebih terang saat hover */
+  border-bottom: 2px solid #007aff;
+  transition: 0.2s linear;
 }
 
 .nav-item.active {
